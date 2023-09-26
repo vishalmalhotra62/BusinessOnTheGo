@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap');
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.p_back {
+    background-color: #FDBB30;
+}
+
+.nav-link {
+    color: #FFFFFF;
+}
+
+.bg_black {
+    background-color: #000000;
+}
+
+.count {
+    top: 25px;
+    left: -5px;
+    font-size: 12px;
+    padding: .5px 1px;
+    width: 16px;
+    height: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dropdown-toggle::after {
+    background-image: url(media/Chevron.svg) !important;
+    font-size: 0;
+    width: 10px;
+    height: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* margin-left: 10px; */
+}
+
+.wrapper {
+    margin-top: 0px;
+}
+
+.bg1 {
+    height: 853px;
+}
+
+.Core_Burgundy {
+    color: #860038;
+}
+
+.text-yellow {
+    color: #FDBB30;
+}
+
+.btn1 {
+    padding: 11px 15px;
+    /* Grayscale Basic/White */
+    border: 1px solid #FFFFFF !important;
+    background-color: transparent !important;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 900;
+    letter-spacing: 0.135em;
+}
+
+.btn2 {
+    padding: 11px 15px;
+    /* Grayscale Basic/White */
+    border: 1px solid #000000 !important;
+    background-color: transparent !important;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 900;
+    letter-spacing: 0.135em;
+}
+
+.btn4 {
+    padding: 11px 15px;
+    /* Grayscale Basic/White */
+    border: 1px solid #FFFFFF !important;
+    background-color: #000000 !important;
+    text-transform: uppercase;
+    color: white !important;
+    font-size: 14px;
+    font-weight: 900;
+    letter-spacing: 0.135em;
+}
+
+.btn3 {
+    padding: 11px 15px;
+    /* Grayscale Basic/White */
+    border: 1px solid #860038 !important;
+    background-color: transparent !important;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 900;
+    letter-spacing: 0.135em;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    color: inherit;
+}
+
+.c {
+    background-color: #FFFFFF;
+}
+
+.fs4-14 {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.col1 {
+    width: 123px;
+    height: 123px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px
+}
+
+.col1 img {
+    width: 52px;
+}
+
+.mycards {
+    width: 432px;
+    height: 526px;
+}
+
+.mycards:hover>.card_box {
+    bottom: 0%;
+}
+
+.card_box {
+    position: absolute;
+    width: 100%;
+    bottom: -37%;
+    background: rgba(0, 0, 0, 0.75);
+    color: white;
+    transition: all .3s;
+}
+
+.last_sec {
+    position: relative;
+    left: 350px;
+    width: 788px;
+    height: 328px;
+    z-index: 1;
+}
+
+.bac {
+    /* right: 50px; */
+    position: absolute;
+    z-index: 0;
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 30px;
+    left: 20px;
+    border: 1px solid #000000;
+}
+
+.navbar-nav .nav-link.active {
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 1500px) and (min-width: 1300px) {
+    .last_sec {
+        left: 150px;
+    }
+}
+
+@media screen and (max-width: 1300px) and (min-width: 900px) {
+    .last_sec {
+        left: 150px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .bgm {
+        background-image: url(media/BGM.png) !important;
+    }
+    .card_box {
+        bottom: -41%;
+    }
+    footer {
+        background-image: url(media/footerM.png) !important;
+    }
+    .fsm25 {
+        font-size: 25px;
+    }
+    .mycards {
+        width: 327px;
+        height: 397px;
+    }
+    footer .fs-16 {
+        font-size: 13px;
+    }
+    .w100m {
+        width: 100% !important;
+    }
+    .fsm18 {
+        font-size: 18px;
+    }
+    .fsm10 {
+        font-size: 10px;
+    }
+    .fsm22 {
+        font-size: 22px;
+        font-weight: 700;
+    }
+    .bg1 {
+        height: auto;
+    }
+    #navbarNav {
+        background-color: #FFFFFF;
+    }
+    .navbar {
+        padding-bottom: 0 !important;
+        padding-top: 0 !important;
+    }
+    .nav-item {
+        border-bottom: 1px solid #9C9C9C;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .nav-item .nav-link {
+        color: #860038;
+    }
+    .navbar .navbar-nav.n1>li:hover,
+    .navbar .navbar-nav.n1>li:focus {
+        background-color: #860038 !important;
+    }
+    .navbar .navbar-nav.n1 .nav-item:hover>.nav-link,
+    .navbar .navbar-nav.n1>li:focus>a {
+        color: #FFFFFF !important;
+    }
+}

@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="container-fluid position-sticky w-100 px-0  bg_black" style="z-index: 999; top: 0;">
+        <div class="container px-0">
+            <nav class="navbar navbar-expand-lg w-100">
+                <div class="container-fluid pt-2 px-0">
+                    <a class="navbar-brand px-3 px-lg-0" href="#">
+                        <img src="media/Logo.svg" alt="">
+                    </a>
+                    <button class="navbar-toggler border-0 px-3 px-lg-0" style="box-shadow: none;" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <img src="media/menu-hamburger.svg" alt="">
+                        <!-- <img src="media/cross-small.svg" alt=""> -->
+                    </button>
+                    <div class="collapse navbar-collapse px-0 px-lg-0 justify-content-center pe-lg-5 position-relative"
+                        id="navbarNav">
+                        <ul class="navbar-nav n1 gap-lg-4 gap-0" style="margin-left: auto;">
+                            <li class="nav-item d-lg-none d-block">
+                                <a class="nav-link primary_clr fsm22 px-lg-0 px-4 fs14 text-uppercase "
+                                    aria-current="page" href="index.html">
+                                    Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link primary_clr fsm22 px-lg-0 px-4 fs14 text-uppercase "
+                                    aria-current="page" href="checkout.html">
+                                    Store</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link primary_clr fsm22 px-lg-0 px-4 fs14 text-uppercase " href="about.html">About
+                                    Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link primary_clr fsm22 px-lg-0 px-4 fs14 text-uppercase " href="contact.html">Contact
+                                    Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link primary_clr fsm22 px-lg-0 px-4 fs14 text-uppercase "
+                                    href="FAQ.html">FAQs</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link primary_clr fsm22 px-lg-0 px-4 fs14 text-uppercase d-lg-none d-block"
+                                    href="login.html">Login /Register</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link primary_clr fsm22 px-lg-0 px-4 fs14 text-uppercase d-lg-none d-block "
+                                    href="order history.html">My Cart</a>
+                            </li>
+                        </ul>
+
+                        <ul class="navbar-nav n2 d-none d-lg-flex gap-2 align-items-lg-center"
+                            style="justify-self:end; margin-left: auto;">
+
+                            <li class="nav-item d-none d-lg-inline-block">
+                                <a class="nav-link fs1 text-uppercase primary_clr fsm22 px-lg-0 px-4" href="#">
+                                    <img src="media/Account.svg" alt="">
+                                </a>
+                            </li>
+
+                            <li class="nav-item d-none d-lg-inline-block position-relative">
+                                <a class="nav-link cart_btn primary_clr fsm22 px-lg-0 px-4 fs14 text-uppercase  position-relative"
+                                    href="#">
+                                    <img src="media/cartIcon.svg" alt="" />
+
+                                    <span
+                                        class="position-absolute fw-bold text-dark rounded-circle p_back count">4</span></a>
+                            </li>
+
+
+                            <li class="nav-item fs14 dropdown mt-3 mt-lg-0">
+                                <a class="nav-link primary_clr fsm22 px-lg-0 px-4 active  dropdown-toggle " href="#"
+                                    id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    £
+                                </a>
+                                <ul class="dropdown-menu p_back" aria-labelledby="navbarDropdownMenuLink">
+                                    <li><a class="dropdown-item" href="#">USA</a>
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">USA</a>
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">USA</a>
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">USA</a>
+                                    </li>
+
+                                </ul>
+                            </li>
+
+
+                        </ul>
+
+
+                    </div>
+
+
+                </div>
+            </nav>
+        </div>
+    </div>
+    <div class="container-fluid py-5" style="background-color: white">
+        <div class="container">
+            <div class="row align-items-center" style="background-color: #F4F4F4">
+                <div class="col-lg-6 col-md-6  col-sm-12 text-white py-5 order-1 order-lg-0"
+                    style="background-color: #860038">
+                    <div class="col-lg-10 col-11  mx-auto text-center">
+                        <div class="text-uppercase fs7-50 pb-4 m-0">create an account</div>
+                        <div class="col">
+                            <input type="text" name="" placeholder="Full Name" class="w-100 mb-3 px-2 py-3">
+                        </div>
+                        <div class="col">
+                            <input type="email" name="" placeholder="Email Address" class="w-100 mb-3 px-2 py-3">
+                        </div>
+                        <div class="col pb-2">
+                            <input type="password" name="" placeholder="Password" class="w-100 mb-2 px-2 py-3">
+                        </div>
+                        <div class="col pb-3">
+                            <input type="password" name="" placeholder="Confirm Password" class="w-100 mb-2 px-2 py-3">
+                        </div>
+                        <div class="row m-0 pb-lg-4 pb-2 gap-lg-0 gap-3">
+                            <div class="col-lg-7 col-md-7 col-sm-12 p-0 text-start">
+                                <div class="d-flex gap-3 align-items-center">
+                                    <input id="chck" type="checkbox">
+                                    <div>
+                                        <label for="chck" class="mycheckbox" style="border-color: white;"></label>
+                                    </div>
+                                    <label for="chck" class="text-start fs-16">
+                                        By ticking this box, you agree to the <a href="#"
+                                            class="text-decoration-none text-yellow">Terms
+                                            & Conditions</a> & <a href="#"
+                                            class="text-decoration-none text-yellow">Privacy
+                                            Policy</a>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col-lg-5 col-md-5 col-sm-12 p-0 mb-2">
+                                <img src="media/reCAPTCHA.png" class="img-fluid">
+                            </div>
+                        </div>
+                        <div class="col">
+                            <button type="button" class="btn1 text-white w-100 fsm10">SIGN
+                                UP</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 h-auto  col-md-6 col-sm-12 py-5">
+                    <div class="col-lg-9 col-10 mx-auto text-center py-3">
+                        <div class="text-uppercase fs7-50 pb-4">START HERE</div>
+                        <p class="fs-18 px-1 border-2 border-bottom border-dark pb-lg-4 pb-2">Lorem ipsum dolor sit
+                            amet, consectetur adipiscing elit. Risus nisi lobortis massa, elit imperdiet eu risus
+                            scelerisque vel. Elit non quis cras viverra placerat aliquam faucibus elit duis. </p>
+                        <div class="text-uppercase fsv-14 pt-lg-4 pt-1 pb-lg-3	pb-3"><a href="#"
+                                class="text-decoration-none text-dark">ALREADY have an account?</a></div>
+                        <div class="col-lg-4 mx-auto">
+                            <button type="button" class="btn2  fsm10">LOGIN</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer
+        style="background-image: url(media/Footer.png); background-position-x: center; background-repeat: no-repeat;">
+        <div class="container text-white pt-lg-5 pt-3">
+            <div class="text-center ">
+                <img src="media/Logo.svg" alt="">
+                <br>
+                <img src="media/Mastercard.png" class="d-none d-lg-inline mt-lg-4" alt="">
+            </div>
+            <div class="d-flex col-lg-7 flex-wrap gap-3 gap-lg-0 flex-lg-nowrap mx-auto justify-content-between pt-3">
+                <a href="" class="fs-16 w100m text-center">Tel:+44 7700 123456</a>
+                <img src="media/Ellipse 102.svg" class="d-none d-lg-block" alt="">
+                <a href="" class="fs-16 w100m text-center">Email: info@businessonthego.com</a>
+                <img src="media/Ellipse 102.svg" class="d-none d-lg-block" alt="">
+                <a href="" class="fs-16 w100m text-center">Address: 123 London Street, LDN, AB1 2CD</a>
+            </div>
+            <div class="text-center pb-lg-4">
+                <img src="media/Mastercard.png" class="d-inline d-lg-none mt-lg-4" alt="">
+            </div>
+
+            <div class="py-lg-4 py-3" style="border-top: 1px solid #FFFFFF;border-bottom: 1px solid #FFFFFF;">
+                <div
+                    class="d-flex gap-lg-0  flex-wrap flex-lg-nowrap col-lg-9 col-7 text-uppercase mx-auto justify-content-center justify-content-lg-between">
+                    <a href="index.html" class="fsv-14 px-3 py-1 p-lg-0">Home</a>
+                    <a href="checkout.html" class="fsv-14 px-3 py-1 p-lg-0">Store</a>
+                    <a href="about.html" class="fsv-14 px-3 py-1 p-lg-0">About Us</a>
+                    <a href="contact.html" class="fsv-14 px-3 py-1 p-lg-0">Contact Us</a>
+                    <a href="FAQ.html" class="fsv-14 px-3 py-1 p-lg-0">FAQs</a>
+                    <a href="login.html" class="fsv-14 px-3 py-1 p-lg-0">Login/Register</a>
+                    <a href="terms & conditions.html" class="fsv-14 px-3 py-1 p-lg-0">T&C’s</a>
+                    <a href="privacy & policy.html" class="fsv-14 px-3 py-1 p-lg-0">Privacy Policy</a>
+                </div>
+            </div>
+
+            <div class="text-center py-4 ">
+                <a href="" class="fs4-14">© 2023 businessonthego. All Rights Reserved</a>
+            </div>
+
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js'
+        integrity='sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ=='
+        crossorigin='anonymous'></script>
+
+    <script>
+        $(document).ready(function () {
+            var t = false;
+            $('.navbar-toggler').click(function () {
+                if (t) {
+                    $(this).html('<img src="media/menu-hamburger.svg" alt="">')
+                    t = false;
+                } else {
+                    $(this).html('<img src="media/cross-small.svg" alt="">')
+                    t = true;
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>

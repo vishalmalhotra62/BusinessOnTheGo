@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Enter your description here" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css'
+        integrity='sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=='
+        crossorigin='anonymous' />
+    <!-- <link rel="stylesheet" href="style1.css"> -->
+    <title>Home</title>
+</head>
+
+<body>
+    <div class="container-fluid position-sticky w-100 px-0  bg_black" style="z-index: 999; top: 0;">
+        <div class="container px-0">
+            <nav class="navbar navbar-expand-lg w-100">
+                <div class="container-fluid pt-2 px-0">
+                    <a class="navbar-brand px-3 px-lg-0" href="#">
+                        <img src="media/Logo.svg" alt="">
+                    </a>
+                    <button class="navbar-toggler border-0 px-3 px-lg-0" style="box-shadow: none;" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <img src="media/menu-hamburger.svg" alt="">
+                        <!-- <img src="media/cross-small.svg" alt=""> -->
+                    </button>
+                    <div class="collapse navbar-collapse px-0 px-lg-0 justify-content-center pe-lg-5 position-relative"
+                        id="navbarNav">
+                        <ul class="navbar-nav n1 gap-lg-4 gap-0" style="margin-left: auto;">
+                            <li class="nav-item d-lg-none d-block">
+                                <a class="nav-link primary_clr fsm22 px-lg-0 px-4 fs14 text-uppercase "
+                                    aria-current="page" href="index.html">
+                                    Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link primary_clr fsm22 px-lg-0 px-4 fs14 text-uppercase "
+                                    aria-current="page" href="checkout.html">
+                                    Store</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link primary_clr fsm22 px-lg-0 px-4 fs14 text-uppercase " href="about.html">About
+                                    Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link primary_clr fsm22 px-lg-0 px-4 fs14 text-uppercase " href="contact.html">Contact
+                                    Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link primary_clr fsm22 px-lg-0 px-4 fs14 text-uppercase "
+                                    href="FAQ.html">FAQs</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link primary_clr fsm22 px-lg-0 px-4 fs14 text-uppercase d-lg-none d-block"
+                                    href="login.html">Login /Register</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link primary_clr fsm22 px-lg-0 px-4 fs14 text-uppercase d-lg-none d-block "
+                                    href="order history.html">My Cart</a>
+                            </li>
+                        </ul>
+
+                        <ul class="navbar-nav n2 d-none d-lg-flex gap-3 align-items-lg-center"
+                            style="justify-self:end; margin-left: auto;">
+
+                            <li class="nav-item d-none d-lg-inline-block">
+                                <a class="nav-link fs1 text-uppercase primary_clr fsm22 px-lg-0 px-4" href="#">
+                                    <img src="media/Account.svg" alt="">
+                                </a>
+                            </li>
+
+                            <li class="nav-item d-none d-lg-inline-block position-relative">
+                                <a class="nav-link cart_btn primary_clr fsm22 px-lg-0 px-4 fs14 text-uppercase  position-relative"
+                                    href="#">
+                                    <img src="media/cartIcon.svg" alt="" />
+
+                                    <span class="position-absolute  text-dark rounded-circle p_back count">4</span></a>
+                            </li>
+
+
+                            <li class="nav-item fs14 dropdown mt-3 mt-lg-0">
+                                <a class="nav-link primary_clr fsm22 px-lg-0 px-4 active  dropdown-toggle " href="#"
+                                    id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    £
+                                </a>
+                                <ul class="dropdown-menu p_back" aria-labelledby="navbarDropdownMenuLink">
+                                    <li><a class="dropdown-item" href="#">USA</a>
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">USA</a>
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">USA</a>
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">USA</a>
+                                    </li>
+
+                                </ul>
+                            </li>
+
+
+                        </ul>
+
+
+                    </div>
+
+
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <div class="w-100 wrapper overflow-hidden">
+
+
+        <div class="w-100 bg1 d-flex align-items-center"
+            style="background-image: url(media/home1.png);background-position-x: center; background-repeat: no-repeat;background-size: cover;">
+
+            <div class="container py-5">
+                <div class="col-lg-6 ps-3">
+                    <h3 class="fs7-25 text-white">OUR MOTTO</h3>
+                    <h2 class="fs7-50 text-white text-uppercase">
+                        Expert Insight to better your business
+                    </h2>
+                    <p class="fs-18 text-white">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In cursus sollicitudin malesuada purus
+                        arcu, venenatis eu.
+                    </p>
+                    <button class="btn1 text-white fsm10">
+                        Discover More
+                    </button>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="w-100 py-5 bgred"
+            style="background-image: url(media/home2.png);background-position-x: center; background-repeat: no-repeat;">
+
+            <div class="container py-lg-5">
+                <h2 class="fsb-40 text-yellow text-uppercase text-lg-center">
+                    professional <br class="d-block d-lg-none"> e-learning materials
+                </h2>
+                <p class="fs-18 py-3 text-white text-lg-center col-lg-6 mx-auto">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In cursus sollicitudin malesuada purus
+                    arcu, venenatis eu.
+                </p>
+                <div class="d-flex gap-lg-5 col-lg-11  gap-4 text-center flex-wrap flex-lg-nowrap">
+                    <div class="col c p-lg-4 px-lg-4 px-3 py-3 mb-lg-0 mb-3 mx-lg-0 mx-2">
+                        <img src="media/img1.png" class="img-fluid" alt="">
+                        <h3 class="Core_Burgundy fs7-25 pt-lg-3 pt-2 pb-0 pb-lg-2">Articles</h3>
+                        <p class="fs-16 px-lg-3 py-0">
+                            Id augue nibh neque eu in sem molestie. Facilisis sem dui nam ac vel blandit at nascetur
+                            arcu.
+                        </p>
+                        <button class="fsm10 btn2 w-100 w90m">
+                            Explore
+                        </button>
+                    </div>
+                    <div class="col c p-lg-4 px-lg-4 px-3 py-3 mb-lg-0 mb-3 mx-lg-0 mx-2">
+                        <img src="media/img2.png" class="img-fluid" alt="">
+                        <h3 class="Core_Burgundy fs7-25 pt-lg-3 pt-2 pb-0 pb-lg-2">AUDIOBOOKS</h3>
+                        <p class="fs-16 px-lg-3 py-0">
+                            Id augue nibh neque eu in sem molestie. Facilisis sem dui nam ac vel blandit at nascetur
+                            arcu.
+                        </p>
+                        <button class="fsm10 btn2 w-100 w90m">
+                            Explore
+                        </button>
+                    </div>
+                    <div class="col c p-lg-4 px-lg-4 px-3 py-3 mb-lg-0 mb-3 mx-lg-0 mx-2">
+                        <img src="media/img3.png" class="img-fluid" alt="">
+                        <h3 class="Core_Burgundy fs7-25 pt-lg-3 pt-2 pb-0 pb-lg-2">E-BOOKS</h3>
+                        <p class="fs-16 px-lg-3 py-0">
+                            Id augue nibh neque eu in sem molestie. Facilisis sem dui nam ac vel blandit at nascetur
+                            arcu.
+                        </p>
+                        <button class="fsm10 btn2 w-100 w90m">
+                            Explore
+                        </button>
+                    </div>
+                    <div class="col c p-lg-4 px-lg-4 px-3 py-3 mb-lg-0 mb-3 mx-lg-0 mx-2">
+                        <img src="media/img4.png" class="img-fluid" alt="">
+                        <h3 class="Core_Burgundy fs7-25 pt-lg-3 pt-2 pb-0 pb-lg-2">VIDEOS</h3>
+                        <p class="fs-16 px-lg-3 py-0">
+                            Id augue nibh neque eu in sem molestie. Facilisis sem dui nam ac vel blandit at nascetur
+                            arcu.
+                        </p>
+                        <button class="fsm10 btn2 w-100 w90m">
+                            Explore
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="w-100 py-lg-5 py-4" style="background-color: #FFFFFF;">
+            <div class="row align-items-center gap-5">
+                <div class="col-lg-7 pe-lg-0 pe-4">
+                    <img src="media/home3.png" class="w-100 w100m d-none d-lg-block" alt="">
+                    <img src="media/inde.png" class="w-100 w100m d-block d-lg-none" alt="">
+                </div>
+                <div class="col-lg-4 px-lg-0 px-5">
+                    <h3 class="fs7-25 text-uppercase">What we offer</h3>
+                    <h2 class="fsb-40 text-uppercase Core_Burgundy py-lg-4">
+                        Real Business <br class="d-none d-lg-block">Solutions
+                    </h2>
+                    <p class="fs-18 col-lg-8 ">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Porta scelerisque mauris ultrices sed
+                        venenatis nibh. Natoque interdum fames neque, gravida. Augue ut egestas pellentesque vitae
+                        gravida fames.
+                    </p>
+                    <p class="fs-18 col-lg-8 ">
+                        Risus iaculis consectetur habitant tellus. Sagittis elementum nunc, scelerisque lorem etiam
+                        egestas lectus sociis. Volutpat penatibus massa volutpat dapibus. Diam ut in at dolor. Enim
+                        laoreet.
+                    </p>
+                    <button class="btn3 Core_Burgundy fsm10">
+                        MORE ABOUT US
+                    </button>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="w-100 py-5 bgred"
+            style="background-image: url(media/home2.png);background-position-x: center; background-repeat: no-repeat; background-size: cover;">
+
+            <div class="container  px-0">
+                <h2 class="fsb-40 text-yellow text-uppercase text-center">
+                    Popular products
+                </h2>
+                <p class="fs-18 py-3 col-8 text-white text-center col-lg-4 px-lg-4 mx-auto">
+                    Sed amet viverra auctor sed. Mi amet lorem molestie et. Viverra id massa.
+                </p>
+                <div class="text-center mt-4 d-block d-lg-none mb-5">
+                    <button class="btn4  fs9-14">
+                        Explore more
+                    </button>
+                </div>
+                <div class="owl-carousel owl-theme d-block d-lg-none">
+                    <div class="item">
+                        <div class="col c c2 p-lg-4 px-4 py-3">
+                            <img src="media/pro1.png" class="img-fluid" alt="">
+                            <h4 class="fs6-14 text-center pt-3">Product Tag</h4>
+                            <h3 class="Core_Burgundy fsm22 fs7-25 text-center">A.i in digital marketing</h3>
+                            <p class="fs-16 text-center">
+                                Id augue nibh neque eu in sem molestie. Facilisis sem dui nam ac vel blandit at nascetur
+                                arcu.
+                            </p>
+                            <div class="d-flex justify-content-between">
+                                <p class="fs7-25">38.99 GBP</p>
+                                <button class="btn4 ">
+                                    Add to cart
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="d-flex  gap-lg-5 gap-4   text-center d-none d-lg-flex">
+                    <div class="col c c2 p-lg-4 px-4 py-3">
+                        <img src="media/pro1.png" class="w-100" alt="">
+                        <h4 class="fs6-14 py-2 pt-3">Product Tag</h4>
+                        <h3 class="Core_Burgundy fs7-25 text-uppercase">A.i in digital marketing</h3>
+                        <p class="fs-16">
+                            Id augue nibh neque eu in sem molestie. Facilisis sem dui nam ac vel blandit at nascetur
+                            arcu.
+                        </p>
+                        <p class="fs7-25">38.99 GBP</p>
+                        <button class="btn4 w-100">
+                            Add to cart
+                        </button>
+                    </div>
+                    <div class="col c c2 p-lg-4 px-4 py-3">
+                        <img src="media/pro1.png" class="w-100" alt="">
+                        <h4 class="fs6-14 py-2 pt-3">Product Tag</h4>
+                        <h3 class="Core_Burgundy fs7-25 text-uppercase">A.i in digital marketing</h3>
+                        <p class="fs-16">
+                            Id augue nibh neque eu in sem molestie. Facilisis sem dui nam ac vel blandit at nascetur
+                            arcu.
+                        </p>
+                        <p class="fs7-25">38.99 GBP</p>
+                        <button class="btn4 w-100">
+                            Add to cart
+                        </button>
+                    </div>
+                    <div class="col c c2 p-lg-4 px-4 py-3">
+                        <img src="media/pro1.png" class="w-100" alt="">
+                        <h4 class="fs6-14 py-2 pt-3">Product Tag</h4>
+                        <h3 class="Core_Burgundy fs7-25 text-uppercase">A.i in digital marketing</h3>
+                        <p class="fs-16">
+                            Id augue nibh neque eu in sem molestie. Facilisis sem dui nam ac vel blandit at nascetur
+                            arcu.
+                        </p>
+                        <p class="fs7-25">38.99 GBP</p>
+                        <button class="btn4 w-100">
+                            Add to cart
+                        </button>
+                    </div>
+                    <div class="col c c2 p-lg-4 px-4 py-3">
+                        <img src="media/pro1.png" class="w-100" alt="">
+                        <h4 class="fs6-14 py-2 pt-3">Product Tag</h4>
+                        <h3 class="Core_Burgundy fs7-25 text-uppercase">A.i in digital marketing</h3>
+                        <p class="fs-16">
+                            Id augue nibh neque eu in sem molestie. Facilisis sem dui nam ac vel blandit at nascetur
+                            arcu.
+                        </p>
+                        <p class="fs7-25">38.99 GBP</p>
+                        <button class="btn4 w-100">
+                            Add to cart
+                        </button>
+                    </div>
+                </div>
+
+                <div class="text-center mt-4 d-none d-lg-block">
+                    <button class="btn4  fs9-14">
+                        Explore more
+                    </button>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="w-100">
+            <div class="container py-5 px-4">
+                <h2 class="fsb-40  fsm14 text-uppercase text-lg-center">
+                    Why BUSINESS ON THE GO?
+                </h2>
+                <h3 class="fsb-30  py-3 Core_Burgundy text-lg-center text-uppercase">
+                    providing the best business e-learning materials
+                </h3>
+                <p class="fs-18 text-lg-center col-lg-6 mx-auto">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Porta scelerisque mauris ultrices sed
+                    venenatis nibh. Natoque interdum fames neque, gravida. Augue ut egestas pellentesque vitae gravida
+                    fames.
+                </p>
+
+                <div class="flex-column flex-lg-row d-flex pt-5 gap-5 flex-wrap">
+                    <div class="col w100m text-center px-lg-4 px-5">
+                        <img src="media/people-fill.png" alt="">
+                        <h4 class="fs7-25 text-uppercase mt-4 mt-lg-3">Real Specialists</h4>
+                        <p class="fs-18">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis in pellentesque
+                            elit.
+                        </p>
+                    </div>
+                    <div class="col w100m text-center px-lg-4 px-5">
+                        <img src="media/afford.png" alt="">
+                        <h4 class="fs7-25 text-uppercase mt-4 mt-lg-3">Afforable Prices</h4>
+                        <p class="fs-18">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis in pellentesque
+                            elit.
+                        </p>
+                    </div>
+                    <div class="col w100m text-center px-lg-4 px-5">
+                        <img src="media/file-earmark-easel-fill.png" alt="">
+                        <h4 class="fs7-25 text-uppercase mt-4 mt-lg-3">Wide Variety</h4>
+                        <p class="fs-18">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis in pellentesque
+                            elit.
+                        </p>
+                    </div>
+
+                </div>
+                <div class="flex-column flex-lg-row d-flex gap-5 flex-wrap mt-4">
+                    <div class="col w100m text-center px-lg-4 px-5">
+                        <img src="media/clock-history.png" alt="">
+                        <h4 class="fs7-25 text-uppercase mt-4 mt-lg-3">Flexablitlity</h4>
+                        <p class="fs-18">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis in pellentesque
+                            elit.
+                        </p>
+                    </div>
+                    <div class="col w100m text-center px-lg-4 px-5">
+                        <img src="media/multi.png" alt="">
+                        <h4 class="fs7-25 text-uppercase mt-4 mt-lg-3">Muli Devices</h4>
+                        <p class="fs-18">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis in pellentesque
+                            elit.
+                        </p>
+                    </div>
+                    <div class="col w100m text-center px-lg-4 px-5">
+                        <img src="media/expert.png" alt="">
+                        <h4 class="fs7-25 text-uppercase mt-4 mt-lg-3">Noivce to Expert</h4>
+                        <p class="fs-18">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis in pellentesque
+                            elit.
+                        </p>
+                    </div>
+
+                </div>
+                <div class="text-center mt-5">
+                    <button class="btn2 cr">
+                        Learn more
+                    </button>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="w-100" style="background-color: #FAF9F9;">
+            <div class="container py-5">
+                <div class="row pt-lg-5">
+                    <div class="col-lg-6 pe-lg-5">
+                        <h2 class="fsb-40 text-uppercase text-uppercase">
+                            Company Facts
+                        </h2>
+                        <h3 class="fs7-25 py-2 fsm18 Core_Burgundy  text-uppercase">
+                            our resources will help you grow
+                        </h3>
+                        <p class="fs-18 pt-lg-3 pe-lg-5  Core_Burgundy">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Egestas mauris augue dui lobortis
+                            orci duis malesuada. Purus varius est sit mauris arcu eget iaculis. Ac dignissim viverra
+                            aliquet.
+                        </p>
+                    </div>
+
+                    <div
+                        class="col-lg-6 col-10 mx-auto mt-lg-0 mt-5 d-flex gap-4 flex-wrap flex-lg-nowrap justify-content-center">
+                        <div class="col text-center">
+                            <div class="text-center text-white col1" style="background-color: #860038;">
+                                <img src="media/file-slides-fill.png" class="" alt="">
+                                <h5> 280 <sup>+</sup></h5>
+                            </div>
+
+                            <div class="fsv-14 col-lg-12 pe-lg-3 pe-0   mt-2 mx-auto Core_Burgundy text-uppercase">
+                                Products to choose from
+                            </div>
+                        </div>
+                        <div class="col text-center">
+                            <div class="text-center text-white col1" style="background-color: #860038;">
+                                <img src="media/cus.png" class="" alt="">
+                                <h5> 280 <sup>+</sup></h5>
+                            </div>
+
+                            <div class="fsv-14 col-lg-12 pe-lg-3 pe-0  mt-2 mx-auto Core_Burgundy text-uppercase">
+                                Satisfied Customers
+                            </div>
+                        </div>
+                        <div class="col text-center">
+                            <div class="text-center text-white col1" style="background-color: #860038;">
+                                <img src="media/file-person-fill.png" class="" alt="">
+                                <h5> 280 <sup>+</sup></h5>
+                            </div>
+
+                            <div class="fsv-14 col-lg-12 pe-lg-3 pe-0  mt-2 mx-auto Core_Burgundy text-uppercase">
+                                experiences members
+                            </div>
+                        </div>
+                        <div class="col text-center">
+                            <div class="text-center text-white col1" style="background-color: #860038;">
+                                <img src="media/newp.png" class="" alt="">
+                                <h5> 280 <sup>+</sup></h5>
+                            </div>
+
+                            <div class="fsv-14 col-lg-12 pe-lg-2 pe-0  mt-2 mx-auto Core_Burgundy text-uppercase">
+                                New products added weekly
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <footer
+        style="background-image: url(media/Footer.png); background-position-x: center; background-repeat: no-repeat;">
+        <div class="container text-white pt-lg-5 pb-lg-4 pt-3">
+            <div class="text-center ">
+                <img src="media/Logo.svg" alt="">
+                <br>
+                <img src="media/Mastercard.png" class="d-none d-lg-inline mt-lg-4" alt="">
+            </div>
+            <div
+                class="d-flex col-xxl-7 col-xl-8 col-lg-9 flex-wrap gap-3 gap-lg-0 flex-lg-nowrap mx-auto justify-content-between py-4">
+                <a href="" class="fs-16 w100m text-center">Tel:+44 7700 123456</a>
+                <img src="media/Ellipse 102.svg" class="d-none d-lg-block" alt="">
+                <a href="" class="fs-16 w100m text-center">Email: info@businessonthego.com</a>
+                <img src="media/Ellipse 102.svg" class="d-none d-lg-block" alt="">
+                <a href="" class="fs-16 w100m text-center">Address: 123 London Street, LDN, AB1 2CD</a>
+            </div>
+            <div class="text-center pb-lg-4 py-4 d-block d-lg-none">
+                <img src="media/Mastercard.png" class="mt-lg-4" alt="">
+            </div>
+
+            <div class="py-lg-4 py-3" style="border-top: 1px solid #FFFFFF;border-bottom: 1px solid #FFFFFF;">
+                <div
+                    class="d-flex gap-lg-0  flex-wrap flex-lg-nowrap col-lg-9 col-9 text-uppercase mx-auto justify-content-center justify-content-lg-between">
+                    <a href="index.html" class="fsv-14 px-3 py-1 p-lg-0">Home</a>
+                    <a href="checkout.html" class="fsv-14 px-3 py-1 p-lg-0">Store</a>
+                    <a href="about.html" class="fsv-14 px-3 py-1 p-lg-0">About Us</a>
+                    <a href="contact.html" class="fsv-14 px-3 py-1 p-lg-0">Contact Us</a>
+                    <a href="FAQ.html" class="fsv-14 px-3 py-1 p-lg-0">FAQs</a>
+                    <a href="login.html" class="fsv-14 px-3 py-1 p-lg-0">Login/Register</a>
+                    <a href="terms & conditions.html" class="fsv-14 px-3 py-1 p-lg-0">T&C’s</a>
+                    <a href="privacy & policy.html" class="fsv-14 px-3 py-1 p-lg-0">Privacy Policy</a>
+                </div>
+            </div>
+
+            <div class="text-center py-lg-4 pt-4 pb-5">
+                <a href="#" class="fs4-14">© 2023 businessonthego. All Rights Reserved</a>
+            </div>
+
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js'
+        integrity='sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ=='
+        crossorigin='anonymous'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js'
+        integrity='sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=='
+        crossorigin='anonymous'></script>
+    <script>
+        $(document).ready(function () {
+            var t = false;
+            $('.navbar-toggler').click(function () {
+                if (t) {
+                    $(this).html('<img src="media/menu-hamburger.svg" alt="">')
+                    t = false;
+                } else {
+                    $(this).html('<img src="media/cross-small.svg" alt="">')
+                    t = true;
+                }
+            });
+        });
+    </script>
+
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            stagePadding: 15,
+            margin: 20,
+            nav: true,
+            center: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 3
+                },
+                1000: {
+                    items: 5
+                }
+            }
+        })
+    </script>
+</body>
+
+</html>
